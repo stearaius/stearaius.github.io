@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto;
+  color: white;
+  text-transform: uppercase; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  min-width: 320px; }
+
+.promo {
+  height: 800px;
+  min-width: 320px;
+  padding: 20px 0px 60px 0px;
+  background: url("../img/background.png") center center/cover no-repeat; }
+
+.logo {
+  display: block;
+  margin: 0 auto; }
+  .logo_img {
+    display: block;
+    margin: 0 auto;
+    width: 58px;
+    height: 54px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+  .logo_text {
+    min-width: 320px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: center; }
+
+h1 {
+  margin-top: 5px; }
+
+h2 {
+  margin-top: 15px; }
+
+.title {
+  color: #bbdd66;
+  font-size: calc( 0.05rem + 20px );
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center; }
+
+.simple {
+  font-size: 31px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px; }
+
+.promo_text {
+  margin: 0 15px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 21px; }
+.promo span {
+  color: #bbdd66;
+  font-weight: 700; }
+
+.more {
+  margin-top: 73px; }
+  .more_text {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center; }
+  .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+
+.navigation {
+  min-width: 320px;
+  height: 604px;
+  background-color: #e4e4e4;
+  padding: 85px 0 75px 0;
+  margin: 0 auto; }
+  .navigation_headder {
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center; }
+  .navigation_divider {
+    background-color: #bbdd66;
+    max-width: 217px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 18px; }
+  .navigation_subheader {
+    margin-top: 17px;
+    color: black;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center; }
+  .navigation_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 45px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .navigation_item {
+    max-width: 323px;
+    max-height: 384px;
+    text-align: center;
+    position: relative;
+    width: 50%; }
+  .navigation_img {
+    width: 100%;
+    height: 100%; }
+  .navigation_item:hover {
+    -webkit-box-shadow: 0 0 21px 1px rgba(0, 140, 186, 0.5);
+            box-shadow: 0 0 21px 1px rgba(0, 140, 186, 0.5); }
+  .navigation_descr {
+    color: white;
+    padding-top: 25%; }
+  .navigation_overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: 0.35s ease;
+    transition: 0.35s ease;
+    -webkit-filter: blur(23px);
+            filter: blur(23px); }
+  .navigation_item:hover .navigation_overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1; }
+
+footer {
+  min-width: 320px;
+  background: #1f1f1f;
+  height: 0 auto;
+  width: 100%;
+  padding: 10px 0;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center; }
+  footer h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem; }
+  footer li {
+    margin: 0 10px;
+    display: inline; }
+  footer a {
+    text-decoration: none;
+    color: white; }
+  footer i {
+    font-size: 1.1rem; }
+  footer a:hover i {
+    color: #bbdd66; }
+
+/*# sourceMappingURL=style.css.map */
